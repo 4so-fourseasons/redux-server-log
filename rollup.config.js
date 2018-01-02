@@ -5,7 +5,6 @@ import babel from 'rollup-plugin-babel'
 import uglify from 'rollup-plugin-uglify'
 import resolve from 'rollup-plugin-node-resolve'
 import commonjs from 'rollup-plugin-commonjs'
-import builtins from 'rollup-plugin-node-builtins'
 import { minify } from 'uglify-es'
 
 export default {
@@ -23,14 +22,15 @@ export default {
     }
   ],
   plugins: [
-    json(),
-    builtins(),
+    resolve({
+      browser: true
+    }),
+    commonjs({
+      include: 'node_modules/**'
+    }),
     babel(),
-    resolve(),
-    commonjs(),
+    json(),
     uglify({}, minify)
   ].concat(
-  ),
-  sourceMap: false,
-  external: []
+  )
 }
