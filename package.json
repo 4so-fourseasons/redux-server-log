@@ -47,9 +47,7 @@
       "flow",
       "stage-3"
     ],
-    "plugins": [
-      "external-helpers"
-    ],
+    "plugins": [ ],
     "env": {
       "test": {
         "presets": [

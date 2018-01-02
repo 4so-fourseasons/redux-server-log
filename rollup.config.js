@@ -28,7 +28,9 @@ export default {
     commonjs({
       include: 'node_modules/**'
     }),
-    babel(),
+    babel({
+      plugins: ['external-helpers']
+    }),
     json(),
     uglify({}, minify)
   ].concat(
