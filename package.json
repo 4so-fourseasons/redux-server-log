@@ -12,8 +12,10 @@
     "url": "https://github.com/4so-fourseasons/redux-server-log"
   },
   "keywords": [
-    "helpers",
-    "functions"
+    "redux",
+    "middleware",
+    "server",
+    "logging"
   ],
   "bugs": {
     "url": "https://github.com/4so-fourseasons/redux-server-log/issues"
@@ -111,7 +113,7 @@
     "email": "dev@on3iro.de"
   },
   "contributors": [],
-  "homepage": "https://www.4so.de",
+  "homepage": "http://www.4so.de",
   "engines": {},
   "dependencies": {
     "axios": "^0.17.1",
