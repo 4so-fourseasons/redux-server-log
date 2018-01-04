@@ -13,5 +13,5 @@ install:
 script:
     - npm run lint
     - npm run flow
-    - npm run test
+    - npm run test:coveralls
     - npm run build

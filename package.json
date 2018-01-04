@@ -28,8 +28,9 @@
     "test:clean": "rimraf ./coverage",
     "pretest": "npm run test:clean",
     "test": "cross-env NODE_ENV=test jest --verbose",
+    "test:watch": "cross-env NODE_ENV=test jest --watch",
     "test:coverage": "cross-env NODE_ENV=test jest --coverage",
-    "test:watch": "cross-env NODE_ENV=test jest --watch"
+    "test:coveralls": "cross-env NODE_ENV=test jest --coverage --runInBand && cat ./coverage/lcov.info | coveralls"
   },
   "babel": {
     "presets": [
