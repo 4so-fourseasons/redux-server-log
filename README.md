@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/4so-fourseasons/redux-server-log.svg?branch=add-ci)](https://travis-ci.org/4so-fourseasons/redux-server-log)
 [![npm version](https://badge.fury.io/js/%404so-fourseasons%2Fredux-server-log.svg)](https://badge.fury.io/js/%404so-fourseasons%2Fredux-server-log)
 
 
