@@ -2,10 +2,27 @@
 [![Coverage Status](https://coveralls.io/repos/github/4so-fourseasons/redux-server-log/badge.svg?branch=dev)](https://coveralls.io/github/4so-fourseasons/redux-server-log?branch=dev)
 [![npm version](https://badge.fury.io/js/%404so-fourseasons%2Fredux-server-log.svg)](https://badge.fury.io/js/%404so-fourseasons%2Fredux-server-log)
 
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+
 
 # Redux-Server-Log
 
 Redux-Server-Log is a simple, naive redux-middleware that posts information to a remote url.
+
+
+## ToC
+
+<!-- vim-markdown-toc GFM -->
+
+* [Installation](#installation)
+    * [Usage](#usage)
+    * [API](#api)
+        * [createLoggerMiddleware](#createloggermiddleware)
+            * [Example](#example)
+        * [logToServer](#logtoserver)
+    * [Versioning](#versioning)
+
+<!-- vim-markdown-toc -->
 
 
 # Installation
