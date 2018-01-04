@@ -2,9 +2,9 @@
 
 import { logToServer } from './actions'
 
-import { createLoggerMiddleware } from './logger'
+import { createLoggerWithPost } from './logger'
 
 export {
   logToServer,
-  createLoggerMiddleware
+  createLoggerWithPost as createLoggerMiddleware
 }

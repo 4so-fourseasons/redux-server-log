@@ -20,13 +20,15 @@ export const postLog = (postFunc: Function, apiUrl: string, log: Object): Promis
 
 export const postLogWithAxios = partial(postLog, axios.post)
 
-export const createLoggerMiddleware = (apiUrl: string) =>
+export const createLoggerMiddleware = (postFunc: Function, apiUrl: string) =>
   () => (next: Function) => (action: Object) => {
     const result = next(action)
 
     if (action.type === LOG_TO_SERVER) {
-      postLogWithAxios(apiUrl, action.payload)
+      postFunc(apiUrl, action.payload)
     }
 
     return result
   }
+
+export const createLoggerWithPost = partial(createLoggerMiddleware, postLogWithAxios)
