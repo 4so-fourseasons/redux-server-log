@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/4so-fourseasons/redux-server-log.svg?branch=add-ci)](https://travis-ci.org/4so-fourseasons/redux-server-log)
 [![Coverage Status](https://coveralls.io/repos/github/4so-fourseasons/redux-server-log/badge.svg?branch=dev)](https://coveralls.io/github/4so-fourseasons/redux-server-log?branch=dev)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b526510cf8f9923c965a/maintainability)](https://codeclimate.com/github/4so-fourseasons/redux-server-log/maintainability)
 [![npm version](https://badge.fury.io/js/%404so-fourseasons%2Fredux-server-log.svg)](https://badge.fury.io/js/%404so-fourseasons%2Fredux-server-log)
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
